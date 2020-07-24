@@ -6,6 +6,10 @@ public class GameEngine : MonoBehaviour
 {
     public GameObject Ziekte;
     public bool GevenEnergyActive;
+    public bool Angst;
+    public bool Depressie;
+    public bool Blaas;
+    public bool BlindeVlekken;
     /*
     public float playerMaxEnergy = 1000;
     public float PlayerEnergy = 1000;
@@ -15,13 +19,27 @@ public class GameEngine : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //Ziekte.GetComponent<GevenEnergy>().setupEnergySymptoom(playerMaxEnergy,PlayerEnergy,EnergyDecay,EnergyIncrease);
-        Ziekte.GetComponent<GevenEnergy>().enabled = true;
+        if(GevenEnergyActive)
+        {
+            Ziekte.GetComponent<GevenEnergy>().enabled = true;
+        }
+        if(Angst)
+        {
+            Ziekte.GetComponent<Angst>().enabled = true;
+        }
+        if(Depressie)
+        {
+            Ziekte.GetComponent<Depressie>().enabled = true;
+        }
+        /*if(Blaas)
+        {
+            Ziekte.GetComponent<Blaas>().enabled = true;
+        }
+        if(BlindeVlekken)
+        {
+            Ziekte.GetComponent<BlindeVlekken>().enabled = true;
+        }*/
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+ 
 }
