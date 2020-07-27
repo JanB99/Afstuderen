@@ -35,10 +35,11 @@ public class GameEngine : MonoBehaviour
         {
             Ziekte.GetComponent<Blaas>().enabled = true;
         }
+        */
         if(BlindeVlekken)
         {
-            Ziekte.GetComponent<BlindeVlekken>().enabled = true;
-        }*/
+            Ziekte.GetComponent<BlindSpots>().enabled = true;
+        }
     }
 
  
