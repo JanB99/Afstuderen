@@ -10606,6 +10606,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -10658,6 +10660,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   attachmentFlags: 44
   attachmentOffset: {fileID: 0}
   catchingSpeedThreshold: -1
@@ -10728,6 +10732,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -10878,6 +10884,7 @@ GameObject:
   - component: {fileID: 765459598}
   - component: {fileID: 765459597}
   - component: {fileID: 765459599}
+  - component: {fileID: 765459600}
   m_Layer: 0
   m_Name: MultipleSclerosis
   m_TagString: Untagged
@@ -10972,6 +10979,25 @@ MonoBehaviour:
   BlindspotBR: {fileID: 639915357}
   NRBlindspots1_9: 3
   MaxSize1_5: 1
+--- !u!114 &765459600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765459594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19da324dd873eaa4cbb8bbedda2c9629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grabGrip:
+    actionPath: /actions/default/in/GrabPinch
+    needsReinit: 0
+  inputSource: 0
+  treshold: 50
+  roll: 0
+  canPickup: 0
 --- !u!1 &767716372
 GameObject:
   m_ObjectHideFlags: 0
@@ -12266,6 +12292,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -12318,6 +12346,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   attachmentFlags: 44
   attachmentOffset: {fileID: 0}
   catchingSpeedThreshold: -1
@@ -12388,6 +12418,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -13269,6 +13301,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -13321,6 +13355,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   attachmentFlags: 44
   attachmentOffset: {fileID: 0}
   catchingSpeedThreshold: -1
@@ -13391,6 +13427,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -17190,6 +17228,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -17242,6 +17282,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   attachmentFlags: 44
   attachmentOffset: {fileID: 0}
   catchingSpeedThreshold: -1
@@ -17312,6 +17354,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -17987,6 +18031,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -18039,6 +18085,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   attachmentFlags: 44
   attachmentOffset: {fileID: 0}
   catchingSpeedThreshold: -1
@@ -18109,6 +18157,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -21799,6 +21849,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   attachmentFlags: 44
   attachmentOffset: {fileID: 0}
   catchingSpeedThreshold: -1
@@ -21869,6 +21921,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -29072,6 +29126,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -29124,6 +29180,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   attachmentFlags: 44
   attachmentOffset: {fileID: 0}
   catchingSpeedThreshold: -1
@@ -29194,6 +29252,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -29868,6 +29928,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -29920,6 +29982,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   attachmentFlags: 44
   attachmentOffset: {fileID: 0}
   catchingSpeedThreshold: -1
@@ -29990,6 +30054,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -30266,6 +30332,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -30318,6 +30386,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   attachmentFlags: 44
   attachmentOffset: {fileID: 0}
   catchingSpeedThreshold: -1
@@ -30388,6 +30458,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -32779,6 +32851,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -32831,6 +32905,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   attachmentFlags: 44
   attachmentOffset: {fileID: 0}
   catchingSpeedThreshold: -1
@@ -32901,6 +32977,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -33037,6 +33115,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -33089,6 +33169,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   attachmentFlags: 44
   attachmentOffset: {fileID: 0}
   catchingSpeedThreshold: -1
@@ -33159,6 +33241,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -33389,6 +33473,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -33441,6 +33527,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   attachmentFlags: 44
   attachmentOffset: {fileID: 0}
   catchingSpeedThreshold: -1
@@ -33511,6 +33599,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -33942,6 +34032,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -34114,6 +34206,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -34166,6 +34260,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   attachmentFlags: 44
   attachmentOffset: {fileID: 0}
   catchingSpeedThreshold: -1
@@ -34236,6 +34332,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -34506,6 +34604,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -34558,6 +34658,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   attachmentFlags: 44
   attachmentOffset: {fileID: 0}
   catchingSpeedThreshold: -1
@@ -34628,6 +34730,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -34872,6 +34976,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -34924,6 +35030,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   attachmentFlags: 44
   attachmentOffset: {fileID: 0}
   catchingSpeedThreshold: -1
@@ -34994,6 +35102,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -35132,6 +35242,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -35184,6 +35296,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   attachmentFlags: 44
   attachmentOffset: {fileID: 0}
   catchingSpeedThreshold: -1
@@ -35254,6 +35368,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -35582,6 +35698,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -35634,6 +35752,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   attachmentFlags: 44
   attachmentOffset: {fileID: 0}
   catchingSpeedThreshold: -1
@@ -35704,6 +35824,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -35874,6 +35996,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   attachmentFlags: 44
   attachmentOffset: {fileID: 0}
   catchingSpeedThreshold: -1
@@ -35944,6 +36068,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -36244,6 +36370,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
@@ -36296,6 +36424,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   attachmentFlags: 44
   attachmentOffset: {fileID: 0}
   catchingSpeedThreshold: -1
@@ -36366,6 +36496,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MS: {fileID: 0}
+  handControl: 0
   activateActionSetOnAttach:
     actionSetPath: 
   hideHandOnAttach: 1
