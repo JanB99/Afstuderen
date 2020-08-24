@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     public SteamVR_Action_Vector2 input;
     public float speed = 1;
     public bool canMove = true;
+    public bool safeSpace = true;
 
     private CharacterController characterController;
 
@@ -26,5 +27,13 @@ public class PlayerController : MonoBehaviour
             characterController.Move(speed * Time.deltaTime * Vector3.ProjectOnPlane(direction,Vector3.up) - new Vector3(0,9.81f,0)*Time.deltaTime);
         }
         
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag == "SafeSpace")
+        {
+            safeSpace = !safeSpace;
+        }
     }
 }
