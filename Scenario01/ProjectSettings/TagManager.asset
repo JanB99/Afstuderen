@@ -6,10 +6,6 @@ TagManager:
   tags:
   - End
   - SafeSpace
-  - Empty
-  - Key
-  - Shop
-  - ShopExit
   layers:
   - Default
   - TransparentFX
@@ -27,8 +23,8 @@ TagManager:
   - 
   - 
   - 
-  - PostProcessing
-  - Focused
+  - 
+  - 
   - 
   - 
   - 
