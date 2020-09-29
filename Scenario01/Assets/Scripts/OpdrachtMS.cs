@@ -10,11 +10,20 @@ public class OpdrachtMS : MonoBehaviour
     public GameObject opdracht4;
     public GameObject opdracht5;
 
+    public AudioSource source;
+
     public int status = 1;
+    private int oldstatus;
 
     // Update is called once per frame
     void Update()
     {
+        if(oldstatus != status)
+        {
+            source.Play();
+        }
+
+
         switch (status)
         {
             case 0:
@@ -23,6 +32,7 @@ public class OpdrachtMS : MonoBehaviour
                 opdracht3.SetActive(false);
                 opdracht4.SetActive(false);
                 opdracht5.SetActive(false);
+                oldstatus = status;
                 break;
             case 1:
                 opdracht1.SetActive(true);
@@ -30,6 +40,7 @@ public class OpdrachtMS : MonoBehaviour
                 opdracht3.SetActive(false);
                 opdracht4.SetActive(false);
                 opdracht5.SetActive(false);
+                oldstatus = status;
                 break;
             case 2:
                 opdracht1.SetActive(false);
@@ -37,6 +48,7 @@ public class OpdrachtMS : MonoBehaviour
                 opdracht3.SetActive(false);
                 opdracht4.SetActive(false);
                 opdracht5.SetActive(false);
+                oldstatus = status;
                 break;
             case 3:
                 opdracht1.SetActive(false);
@@ -44,6 +56,7 @@ public class OpdrachtMS : MonoBehaviour
                 opdracht3.SetActive(true);
                 opdracht4.SetActive(false);
                 opdracht5.SetActive(false);
+                oldstatus = status;
                 break;
             case 4:
                 opdracht1.SetActive(false);
@@ -51,6 +64,7 @@ public class OpdrachtMS : MonoBehaviour
                 opdracht3.SetActive(false);
                 opdracht4.SetActive(true);
                 opdracht5.SetActive(false);
+                oldstatus = status;
                 break;
             case 5:
                 opdracht1.SetActive(false);
@@ -58,6 +72,7 @@ public class OpdrachtMS : MonoBehaviour
                 opdracht3.SetActive(false);
                 opdracht4.SetActive(false);
                 opdracht5.SetActive(true);
+                oldstatus = status;
                 break;
             default:
                 break;
