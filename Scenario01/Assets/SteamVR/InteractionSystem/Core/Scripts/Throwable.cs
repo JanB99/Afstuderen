@@ -15,6 +15,13 @@ namespace Valve.VR.InteractionSystem
 	[RequireComponent( typeof( Rigidbody ) )]
 	public class Throwable : MonoBehaviour
 	{
+
+        
+        public GameObject MS;
+        public bool handControl;
+
+
+
 		[EnumFlags]
 		[Tooltip( "The flags used to attach this object to the hand." )]
 		public Hand.AttachmentFlags attachmentFlags = Hand.AttachmentFlags.ParentToHand | Hand.AttachmentFlags.DetachFromOtherHand | Hand.AttachmentFlags.TurnOnKinematic;
@@ -82,6 +89,13 @@ namespace Valve.VR.InteractionSystem
 
 		}
 
+        public void Update()
+        {
+            
+            MS = GameObject.Find ("MultipleSclerosis");
+            handControl = MS.GetComponent<HandControl>().canPickup;
+        }
+
 
         //-------------------------------------------------
         protected virtual void OnHandHoverBegin( Hand hand )
@@ -126,7 +140,7 @@ namespace Valve.VR.InteractionSystem
         {
             GrabTypes startingGrabType = hand.GetGrabStarting();
 
-            if (startingGrabType != GrabTypes.None)
+            if (startingGrabType != GrabTypes.None && handControl)
             {
 				hand.AttachObject( gameObject, startingGrabType, attachmentFlags, attachmentOffset );
                 hand.HideGrabHint();

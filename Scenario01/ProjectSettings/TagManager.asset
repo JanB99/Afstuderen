@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - End
+  - SafeSpace
+  - Empty
+  - Key
+  - Shop
+  - ShopExit
   layers:
   - Default
   - TransparentFX
@@ -13,6 +19,7 @@ TagManager:
   - UI
   - 
   - 
+  - ClippingMask
   - 
   - 
   - 
@@ -20,9 +27,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - PostProcessing
+  - Focused
   - 
   - 
   - 
